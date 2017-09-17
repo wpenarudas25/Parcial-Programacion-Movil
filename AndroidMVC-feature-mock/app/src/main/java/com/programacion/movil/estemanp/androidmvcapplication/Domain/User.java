@@ -9,13 +9,15 @@ public class User {
     private String lastName;
     private String userName;
     private String password;
+    private String rol;
     private int age;
 
-    public User(String name, String lastName, String userName, String password,int age){
+    public User(String name, String lastName, String userName, String password, String rol, int age){
         this.setName(name);
         this.setLastName(lastName);
         this.setUserName(userName);
         this.setPassword(password);
+        this.setRol(rol);
         this.setAge(age);
     }
 
@@ -33,6 +35,14 @@ public class User {
 
     public void setLastName(String lastName) {
         this.lastName = lastName;
+    }
+
+    public String getRol() {
+        return rol;
+    }
+
+    public void setRol(String rol) {
+        this.rol = rol;
     }
 
     public String getUserName() {

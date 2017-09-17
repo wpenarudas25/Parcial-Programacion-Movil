@@ -26,14 +26,17 @@ public class ApplicationController extends Application {
     }
 
     private void fillUsers() {
-        User person1 = new User("Wilmar", "Peña", "wilmar", "1234", 23);
+        User person1 = new User("Wilmar", "Peña", "wilmar", "1234","admin", 23);
         users.add(person1);
 
-        User person2 = new User("David", "Ramos", "david", "1234", 34);
+        User person2 = new User("David", "Ramos", "david", "1234","admin", 34);
         users.add(person2);
 
-        User person3 = new User("Andres", "Perez", "estemanp", "1234", 24);
+        User person3 = new User("Andres", "Perez", "estemanp", "1234","normal", 24);
         users.add(person3);
+
+        User person4 = new User("Estefanhy", "Flórez", "estefanhy", "1234","normal", 24);
+        users.add(person4);
     }
 
     public boolean isValidUser(String username, String password){
