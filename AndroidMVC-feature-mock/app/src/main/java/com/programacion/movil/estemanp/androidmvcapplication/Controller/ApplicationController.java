@@ -50,4 +50,14 @@ public class ApplicationController extends Application {
         }
         return resp;
     }
+
+    public User getUser(String username){
+        User logUser =null;
+        for (User person:users) {
+            if(username.equals(person.getUserName())){
+                logUser = person;
+            }
+        }
+        return logUser;
+    }
 }

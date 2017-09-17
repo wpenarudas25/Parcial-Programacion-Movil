@@ -8,6 +8,7 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import com.programacion.movil.estemanp.androidmvcapplication.Controller.ApplicationController;
+import com.programacion.movil.estemanp.androidmvcapplication.Domain.User;
 import com.programacion.movil.estemanp.androidmvcapplication.R;
 
 public class LoginActivity extends AppCompatActivity {
@@ -30,7 +31,13 @@ public class LoginActivity extends AppCompatActivity {
 
     public void login(View view) {
         if(appController.isValidUser(userName.getText().toString(),password.getText().toString())) {
-            Intent intent = new Intent(this, LandingActivity.class);
+            User logUser = appController.getUser(userName.getText().toString());
+            Intent intent;
+            if (logUser.getRol().equals("admin")) {
+                intent = new Intent(this, AdminActivity.class);
+            }else{
+                intent = new Intent(this, LandingActivity.class);
+            }
             startActivity(intent);
         }else{
             Toast.makeText(this, "El usuario y contraseña no coinciden", Toast.LENGTH_SHORT).show();
