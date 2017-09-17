@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\wpena\.android\build-cache\aa8dab0080089bc884e5fae9c14dea02cd5c5148\output\jars\libs\internal_impl-23.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8bd336eeae661e8311330284897ee07f8ebaa297">
+        <dex dex="C:\Users\wpena\OneDrive\Documentos\semestre 8\Programacion Movil\AndroidMVC-feature-mock\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.0.0_902784fbad60918f313fdaa1aa1a64b9ecd1bee8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\wpena\OneDrive\Documentos\semestre 8\Programacion Movil\AndroidMVC-feature-mock\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\Users\wpena\OneDrive\Documentos\semestre 8\Programacion Movil\AndroidMVC-feature-mock\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_e502cb79129fca50d7d944d23cb0a4715780ec9d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\wpena\.android\build-cache\aa8dab0080089bc884e5fae9c14dea02cd5c5148\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8413c27b45b7fe61dca4a98159f65e2cee215f5a">
+        <dex dex="C:\Users\wpena\OneDrive\Documentos\semestre 8\Programacion Movil\AndroidMVC-feature-mock\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8302f4b5408e1c90e62b7cf4c63362e041888959\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\wpena\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.0\support-annotations-23.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="990e7f98a7bad86a40b1f0bcfeb039023afd0839">
+        <dex dex="C:\Users\wpena\OneDrive\Documentos\semestre 8\Programacion Movil\AndroidMVC-feature-mock\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.0.0_c63d09170221d4545a7c1d108710b9d93ba82d46\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\wpena\.android\build-cache\b8485b37008882626ae9554275572b93224d8981\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4fcf0b1879f8caf497c073e1432d398e9e2988c1">
+        <dex dex="C:\Users\wpena\OneDrive\Documentos\semestre 8\Programacion Movil\AndroidMVC-feature-mock\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_312bc93563cf9a1487a9638b85ae1c5cea60dc44\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\wpena\OneDrive\Documentos\semestre 8\Programacion Movil\AndroidMVC-feature-mock\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="05bae6cc42913ee47ec4bdfcc07664b158f0e7eb">
+        <dex dex="C:\Users\wpena\OneDrive\Documentos\semestre 8\Programacion Movil\AndroidMVC-feature-mock\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_fb3e813093772b3ddb934303eeda927ef8efd8d2\classes.dex" />
+    </item>
+
+</items>

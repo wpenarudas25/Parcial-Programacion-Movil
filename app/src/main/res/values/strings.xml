@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">AndroidMVCApplication</string>
+    <string name="hint_username">Usuario</string>
+    <string name="btn_login">Login</string>
+    <string name="hint_password">Contraseña</string>
+</resources>
