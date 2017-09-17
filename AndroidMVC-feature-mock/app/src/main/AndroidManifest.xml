@@ -16,11 +16,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".View.LandingActivity" />
-        <activity
-            android:name=".View.AdminActivity"
-            android:label="@string/title_activity_admin"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".View.LandingActivity"></activity>
     </application>
 
 </manifest>

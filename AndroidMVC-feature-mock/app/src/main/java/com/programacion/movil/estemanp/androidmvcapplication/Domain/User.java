@@ -10,15 +10,14 @@ public class User {
     private String userName;
     private String password;
     private String rol;
-    private int age;
 
-    public User(String name, String lastName, String userName, String password, String rol, int age){
+
+    public User(String name, String lastName, String userName, String password, String rol){
         this.setName(name);
         this.setLastName(lastName);
         this.setUserName(userName);
         this.setPassword(password);
         this.setRol(rol);
-        this.setAge(age);
     }
 
     public String getName() {
@@ -61,11 +60,5 @@ public class User {
         this.password = password;
     }
 
-    public int getAge() {
-        return age;
-    }
 
-    public void setAge(int age) {
-        this.age = age;
-    }
 }

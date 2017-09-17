@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.programacion.movil.estemanp.androidmvcapplication.View.LandingActivity" >
+    <item android:id="@+id/add"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="salir"
+        android:orderInCategory="1"
+        android:showAsAction="collapseActionView"/>
+    <item android:id="@+id/search"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="buscar"
+        android:orderInCategory="2"
+        android:showAsAction="ifRoom"/>
+    <item android:id="@+id/edit"
+        android:title="editar"
+        android:orderInCategory="3"
+        android:showAsAction="never"/>
+    <item android:id="@+id/delete"
+        android:title="borrar"
+        android:orderInCategory="4"
+        android:showAsAction="never"/>
+    <item android:id="@+id/action_settings"
+        android:title="configuracion"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+
+</menu>

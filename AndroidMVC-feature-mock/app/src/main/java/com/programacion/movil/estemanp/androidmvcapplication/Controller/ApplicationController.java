@@ -26,16 +26,16 @@ public class ApplicationController extends Application {
     }
 
     private void fillUsers() {
-        User person1 = new User("Wilmar", "Peña", "wilmar", "1234","admin", 23);
+        User person1 = new User("Wilmar", "Peña", "wilmar", "1234","admin");
         users.add(person1);
 
-        User person2 = new User("David", "Ramos", "david", "1234","admin", 34);
+        User person2 = new User("David", "Ramos", "david", "1234","admin");
         users.add(person2);
 
-        User person3 = new User("Andres", "Perez", "estemanp", "1234","normal", 24);
+        User person3 = new User("Andres", "Perez", "estemanp", "1234","normal");
         users.add(person3);
 
-        User person4 = new User("Estefanhy", "Flórez", "estefanhy", "1234","normal", 24);
+        User person4 = new User("Estefanhy", "Flórez", "estefanhy", "1234","normal");
         users.add(person4);
     }
 
@@ -51,13 +51,5 @@ public class ApplicationController extends Application {
         return resp;
     }
 
-    public User getUser(String username){
-        User logUser =null;
-        for (User person:users) {
-            if(username.equals(person.getUserName())){
-                logUser = person;
-            }
-        }
-        return logUser;
-    }
+
 }
