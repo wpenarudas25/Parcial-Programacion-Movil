@@ -35,7 +35,7 @@ public class EventListActivity extends AppCompatActivity {
         lista.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-               // Toast.makeText(view.getContext(),EventoController.getInstance().getEventos().get(position).getCapitalCity(),Toast.LENGTH_LONG).show();
+                // Toast.makeText(view.getContext(),EventoController.getInstance().getEventos().get(position).getCapitalCity(),Toast.LENGTH_LONG).show();
             }
         });
     }

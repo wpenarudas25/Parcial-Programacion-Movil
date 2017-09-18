@@ -30,12 +30,13 @@ public class EventoController {
 
     private void fillEventoList(){
         eventos = new ArrayList<Evento>();
-        eventos.add(new Evento(1,"Feria de las flores","Culturales","Descripción","Lugar","David Ramos","Llevar flores", Date.valueOf("17/09/2017")));
-        eventos.add(new Evento(1,"Junior Vs Nacional","Deportivos","Descripción","Lugar","Wilmar Peña","Todos al estadio", Date.valueOf("18/09/2017")));
+        eventos.add(new Evento(1,"Feria de las flores","Culturales","Descripción","Lugar","David Ramos","Llevar flores", new Date(2017, 9 ,18) ));
+        eventos.add(new Evento(1,"Junior Vs Nacional","Deportivos","Descripción","Lugar","Wilmar Peña","Todos al estadio",new Date(2017, 9 ,19) ));
     }
 
 
     public ArrayList<Evento> getEventos() {
+
         return eventos;
     }
 
