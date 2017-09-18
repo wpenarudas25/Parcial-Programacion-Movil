@@ -41,16 +41,18 @@ public class EventosAdapter extends ArrayAdapter<Evento> {
 
         View layoutEvento = inflater.inflate(R.layout.adapter_evento, parent, false);
 
-        //ImageView imgEvento = (ImageView) layoutEvento.findViewById(R.id.imgEvento);
+        ImageView imgEvento = (ImageView) layoutEvento.findViewById(R.id.imgEvento);
         TextView txtName = (TextView) layoutEvento.findViewById(R.id.txtEvento);
         TextView txtTipo = (TextView) layoutEvento.findViewById(R.id.txtTipo);
+        TextView txtHora = (TextView) layoutEvento.findViewById(R.id.txtHora);
 
 
         Evento evento = eventosList.get(position);
 
-        //imgEvento.setImageResource(evento.getImagen());
+        imgEvento.setImageResource(evento.getImagen());
         txtName.setText(evento.getNombreEvento());
         txtTipo.setText(evento.getTipoEvento());
+        txtHora.setText(evento.getFecha().toString());
 
         return layoutEvento;
     }

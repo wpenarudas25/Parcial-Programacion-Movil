@@ -1,6 +1,7 @@
 package com.programacion.movil.estemanp.androidmvcapplication.Controller;
 
 import com.programacion.movil.estemanp.androidmvcapplication.Domain.Evento;
+import com.programacion.movil.estemanp.androidmvcapplication.R;
 
 import java.sql.Date;
 import java.util.ArrayList;
@@ -30,8 +31,9 @@ public class EventoController {
 
     private void fillEventoList(){
         eventos = new ArrayList<Evento>();
-        eventos.add(new Evento(1,"Feria de las flores","Culturales","Descripción","Lugar","David Ramos","Llevar flores", new Date(2017, 9 ,18) ));
-        eventos.add(new Evento(1,"Junior Vs Nacional","Deportivos","Descripción","Lugar","Wilmar Peña","Todos al estadio",new Date(2017, 9 ,19) ));
+        eventos.add(new Evento(R.mipmap.ic_user,"Feria de las flores","Culturales","Descripción","Lugar","David Ramos","Llevar flores", new Date(2017, 9 ,18) ));
+        eventos.add(new Evento(R.mipmap.ic_cup,"Junior Vs Nacional","Deportivos","Liga Águila","Estadio Atanasio","Wilmar Peña","Todos al estadio",new Date(2017, 9 ,19) ));
+        eventos.add(new Evento(R.mipmap.ic_grado,"Grados UNAC","Académicos","Unac","Bolivar Rave","Wilmar Peña","Grados 2017",new Date(2017, 9 ,22) ));
     }
 
 

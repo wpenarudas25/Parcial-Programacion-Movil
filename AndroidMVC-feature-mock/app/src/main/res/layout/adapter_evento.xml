@@ -10,10 +10,10 @@
         android:gravity="center"
         android:layout_weight="1">
         <ImageView
-            android:layout_width="75dp"
-            android:layout_height="75dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
             android:id="@+id/imgEvento"
-            android:src="@mipmap/ic_user"/>
+            android:src="@mipmap/ic_cup"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="0dp"
@@ -24,16 +24,26 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/txtEvento"
-            android:text="Pais"
-            android:textSize="32sp"
+            android:text="Nombre"
+            android:textSize="12sp"
             android:textStyle="bold"
+            android:textColor="@color/colorAccent"
             android:padding="10dp"/>
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="40dp"
+            android:layout_height="wrap_content"
             android:id="@+id/txtTipo"
-            android:text="Ciudad"
-            android:textColor="@color/colorAccent"
+            android:text="Tipo"
+            android:textSize="8sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:padding="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtHora"
+            android:text="Hora"
+            android:textSize="8sp"
+            android:textColor="@color/colorPrimary"
             android:padding="10dp"/>
     </LinearLayout>
 </LinearLayout>
