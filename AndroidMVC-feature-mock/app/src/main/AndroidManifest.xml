@@ -20,7 +20,8 @@
         <activity
             android:name=".View.AdminActivity"
             android:label="@string/title_activity_admin"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".View.EventListActivity"></activity>
     </application>
 
 </manifest>

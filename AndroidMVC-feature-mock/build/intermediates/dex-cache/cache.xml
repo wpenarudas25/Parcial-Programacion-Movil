@@ -2,94 +2,22 @@
 <items version="2" >
 
     <item
-        is-multidex="false"
-        jar="C:\Users\David\.android\build-cache\07e0bea31695a5d4317c8c08e3ced3c0ae619914\output\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\wpena\Desktop\Proyecto Haktaton\AndroidMVC-feature-mock\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
-        <dex dex="C:\Users\David\Documents\GitHub\Parcial-Programacion-Movil\AndroidMVC-feature-mock\app\build\intermediates\pre-dexed\debug\classes_54893316bb00f1a83b72602f60ae667f7f545d39.jar" />
+        sha1="6e3683c1a820b412c11aca8211e7e95b6fef0f29">
+        <dex dex="C:\Users\wpena\Desktop\Proyecto Haktaton\AndroidMVC-feature-mock\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_710fe4c1651e75ac430a5da88a895150ca60f277\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\David\.android\build-cache\0294d60a3abc9ad76b5b952e8786af02fea7c13c\output\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\wpena\Desktop\Proyecto Haktaton\AndroidMVC-feature-mock\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
-        <dex dex="C:\Users\David\Documents\GitHub\Parcial-Programacion-Movil\AndroidMVC-feature-mock\app\build\intermediates\pre-dexed\debug\classes_b495b0188e2cf353de3cb02b3f035c981db6c958.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\David\.android\build-cache\ebaab4b62fbeeaef8cccbd34eb49f49956a9a69b\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
-        <dex dex="C:\Users\David\Documents\GitHub\Parcial-Programacion-Movil\AndroidMVC-feature-mock\app\build\intermediates\pre-dexed\debug\classes_176948df2c6e6fa30aedb484be3a36c40adf3696.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\David\.android\build-cache\1dff8a71030419e05a91d0962e93e814ab99ad02\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
-        <dex dex="C:\Users\David\Documents\GitHub\Parcial-Programacion-Movil\AndroidMVC-feature-mock\app\build\intermediates\pre-dexed\debug\classes_86372083596da3abdfe62818e72fb883c37d1f53.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\David\.android\build-cache\21ccdffc672475e6d79957c5901f78aab5f72b37\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
-        <dex dex="C:\Users\David\Documents\GitHub\Parcial-Programacion-Movil\AndroidMVC-feature-mock\app\build\intermediates\pre-dexed\debug\classes_a0773db208df4e01c4be000b4f0f58c270858926.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\David\.android\build-cache\d5c1883ea75aa679597dd7ed7b68f7e3bc28471a\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
-        <dex dex="C:\Users\David\Documents\GitHub\Parcial-Programacion-Movil\AndroidMVC-feature-mock\app\build\intermediates\pre-dexed\debug\classes_65107b9a64759b690a34670e21b3632f2a947827.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\David\.android\build-cache\594293bd6d4b592f3b77dd579b8e03c65c7e8793\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
-        <dex dex="C:\Users\David\Documents\GitHub\Parcial-Programacion-Movil\AndroidMVC-feature-mock\app\build\intermediates\pre-dexed\debug\classes_f1639e18fb0086f6c27729be0eb23642e80eeef5.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\David\.android\build-cache\21ccdffc672475e6d79957c5901f78aab5f72b37\output\jars\libs\internal_impl-23.4.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
-        <dex dex="C:\Users\David\Documents\GitHub\Parcial-Programacion-Movil\AndroidMVC-feature-mock\app\build\intermediates\pre-dexed\debug\internal_impl-23.4.0_44f729321bead27143f246270d0cf5e7d4adbef6.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\David\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
-        <dex dex="C:\Users\David\Documents\GitHub\Parcial-Programacion-Movil\AndroidMVC-feature-mock\app\build\intermediates\pre-dexed\debug\support-annotations-23.4.0_f9b4e6a21cda0aee5259abf426610c93254e98e9.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\David\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
-        <dex dex="C:\Users\David\Documents\GitHub\Parcial-Programacion-Movil\AndroidMVC-feature-mock\app\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.0.2_bd7dc31a88f3e373b1dc677673e7184b0b3bc449.jar" />
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\Users\wpena\Desktop\Proyecto Haktaton\AndroidMVC-feature-mock\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_7c6595f9f35708d787482dae27aa574e1c4aa479\classes.dex" />
     </item>
 
 </items>
