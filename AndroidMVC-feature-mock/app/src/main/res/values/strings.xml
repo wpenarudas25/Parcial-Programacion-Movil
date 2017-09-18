@@ -1,7 +1,8 @@
 <resources>
-    <string name="app_name">AndroidMVCApplication</string>
+    <string name="app_name">Eventos Medellín App</string>
     <string name="hint_username">Usuario</string>
     <string name="btn_login">Login</string>
     <string name="hint_password">Contraseña</string>
-    <string name="title_activity_admin">AdminActivity</string>
+    <string name="title_activity_admin">Gestor Eventos</string>
+    <string name="title_activity_event_list">Eventos</string>
 </resources>
