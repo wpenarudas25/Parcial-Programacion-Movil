@@ -1,5 +1,6 @@
 package com.programacion.movil.estemanp.androidmvcapplication.View;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.ArrayAdapter;
@@ -36,6 +37,11 @@ public class EventListActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 // Toast.makeText(view.getContext(),EventoController.getInstance().getEventos().get(position).getCapitalCity(),Toast.LENGTH_LONG).show();
+                Intent intent = new Intent(EventListActivity.this, LandingActivity.class);
+                Evento evento =  EventoController.getInstance().getEventos().get(position);
+
+                //intent.putExtra("evento",evento.getNombreEvento());
+                startActivity(intent);
             }
         });
     }

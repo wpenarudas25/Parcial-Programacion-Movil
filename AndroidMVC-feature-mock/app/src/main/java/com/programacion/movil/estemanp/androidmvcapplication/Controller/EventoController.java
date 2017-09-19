@@ -34,6 +34,9 @@ public class EventoController {
         eventos.add(new Evento(R.mipmap.ic_user,"Feria de las flores","Culturales","Descripción","Lugar","David Ramos","Llevar flores", new Date(2017, 9 ,18) ));
         eventos.add(new Evento(R.mipmap.ic_cup,"Junior Vs Nacional","Deportivos","Liga Águila","Estadio Atanasio","Wilmar Peña","Todos al estadio",new Date(2017, 9 ,19) ));
         eventos.add(new Evento(R.mipmap.ic_grado,"Grados UNAC","Académicos","Unac","Bolivar Rave","Wilmar Peña","Grados 2017",new Date(2017, 9 ,22) ));
+        eventos.add(new Evento(R.mipmap.iglesia,"Semana de Oración","Espiritual","Unac","Iglesia Unac","Pastor iglesia","Prestar atención",new Date(2017, 9 ,18) ));
+        eventos.add(new Evento(R.mipmap.unac,"Almuerzo Istitucional","Gastronómico","Almuerzo en campuz universitario","Campus Unac","Bicerrector estudiantil","Traer coca",new Date(2017, 9 ,23) ));
+        eventos.add(new Evento(R.mipmap.glovant,"Reunión Globant","Empresarial","Visita Empresarial Glovant","Glovant","Gerente Glovant","Llevar documento de identificación",new Date(2017, 10 ,03) ));
     }
 
 

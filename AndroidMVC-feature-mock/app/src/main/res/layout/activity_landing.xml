@@ -9,7 +9,12 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.programacion.movil.estemanp.androidmvcapplication.View.LandingActivity">
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hola Mundo"/>
+        android:id="@+id/txtEvento"
+        android:text="Nombre"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent"
+        android:padding="10dp"/>
 </LinearLayout>

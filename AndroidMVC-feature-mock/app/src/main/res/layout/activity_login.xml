@@ -19,7 +19,7 @@
             android:layout_width="@dimen/size_image"
             android:layout_height="@dimen/size_image"
             android:layout_marginBottom="@dimen/activity_vertical_margin"
-            android:src="@mipmap/ic_user2"/>
+            android:src="@mipmap/login"/>
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
