@@ -38,9 +38,17 @@ public class EventListActivity extends AppCompatActivity {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 // Toast.makeText(view.getContext(),EventoController.getInstance().getEventos().get(position).getCapitalCity(),Toast.LENGTH_LONG).show();
                 Intent intent = new Intent(EventListActivity.this, LandingActivity.class);
-                Evento evento =  EventoController.getInstance().getEventos().get(position);
+                Evento evento =  (Evento) EventoController.getInstance().getEventos().get(position);
 
-                //intent.putExtra("evento",evento.getNombreEvento());
+                intent.putExtra("evento",evento.getNombreEvento());
+                intent.putExtra("descripcion",evento.getDescripcion());
+                intent.putExtra("encargado",evento.getEncargado());
+                intent.putExtra("fecha",evento.getFecha().toString());
+                intent.putExtra("imagen",evento.getImagen());
+                intent.putExtra("lugar",evento.getLugarEvento());
+                intent.putExtra("requisitos",evento.getReqiositos());
+                intent.putExtra("tipo",evento.getTipoEvento());
+
                 startActivity(intent);
             }
         });

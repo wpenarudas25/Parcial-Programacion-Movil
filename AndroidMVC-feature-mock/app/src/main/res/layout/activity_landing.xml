@@ -7,14 +7,62 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
     tools:context="com.programacion.movil.estemanp.androidmvcapplication.View.LandingActivity">
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/txtEvento"
         android:text="Nombre"
-        android:textSize="12sp"
+        android:textSize="18sp"
         android:textStyle="bold"
         android:textColor="@color/colorAccent"
         android:padding="10dp"/>
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/imagenEvento"
+        android:src="@mipmap/glovant"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fechaEvento"
+        android:text="Fecha"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:padding="5dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lugarEvento"
+        android:text="lugar"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:padding="4dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/encargadoEvento"
+        android:text="encargado"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:padding="4dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/descripcionEvento"
+        android:text="descripcion"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:padding="4dp"/>
+
 </LinearLayout>
