@@ -65,4 +65,13 @@
         android:textColor="@color/colorPrimaryDark"
         android:padding="4dp"/>
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_back"
+        android:background="@color/colorButton"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:id="@+id/btnBack"
+        android:onClick="back"/>
+
 </LinearLayout>

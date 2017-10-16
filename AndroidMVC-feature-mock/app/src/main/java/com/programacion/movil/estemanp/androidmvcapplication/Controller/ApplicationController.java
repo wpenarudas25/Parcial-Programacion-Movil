@@ -29,7 +29,7 @@ public class ApplicationController extends Application {
         User person1 = new User("Wilmar", "Peña", "wilmar", "1234","admin", 23);
         users.add(person1);
 
-        User person2 = new User("David", "Ramos", "david", "1234","admin", 34);
+        User person2 = new User("David", "Ramos", "dav", "dav","normal", 34);
         users.add(person2);
 
         User person3 = new User("Andres", "Perez", "estemanp", "1234","normal", 24);

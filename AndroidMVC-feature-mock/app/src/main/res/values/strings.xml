@@ -6,4 +6,5 @@
     <string name="title_activity_admin">Gestor Eventos</string>
     <string name="title_activity_event_list">Eventos</string>
     <string name="title_activity_landing">Evento</string>
+    <string name="btn_back">Atrás</string>
 </resources>
